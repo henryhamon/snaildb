@@ -1,5 +1,7 @@
 public/assets/*
 /.bundle/
+/vendor/bundle
+/lib/bundler/man/
 /.yardoc
 /Gemfile.lock
 /_yardoc/
@@ -8,9 +10,14 @@ public/assets/*
 /pkg/
 /spec/reports/
 /tmp/
+/test/tmp/
+/test/version_tmp/
 *~
 *.swp
 *.swo
 .DS_Store/*
 /log/
-
+*.gem
+*.rbc
+/.config
+.rvmrc
